@@ -1,0 +1,20 @@
+{
+  "name": "React Native Android",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "node": "latest",
+    "android": {
+      "version": "34",
+      "acceptLicenses": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "expo.vscode-expo-tools"
+      ]
+    }
+  },
+  "forwardPorts": [8081, 19000, 19006],
+  "postCreateCommand": "npm install -g expo-cli"
+}. 
